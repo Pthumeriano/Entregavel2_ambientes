@@ -15,9 +15,24 @@
     <h1 class="titulo">Entregavel 2</h1>
 
     <script>
-        function fibonacci(n) {
-            return n < 2 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+        function fibonacci(number) {
+
+            let serie = "";
+
+            let n1 = 0,
+                n2 = 1,
+                nextTerm;
+
+            for (let i = 1; i <= number; i++) {
+                serie += n1 + " "
+                nextTerm = n1 + n2;
+                n1 = n2;
+                n2 = nextTerm;
+            }
+
+            return serie;
         }
+
 
         function somatorio(conjuntoDeNumeros) {
 
@@ -157,7 +172,7 @@
 
 </body>
 
-<footer class="baixo" >
+<footer class="baixo">
     <img src="download.png">
 </footer>
 
