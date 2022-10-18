@@ -6,10 +6,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Entregavel 2</title>
 </head>
 
 <body>
+
+    <h1 class="titulo">Entregavel 2</h1>
 
     <script>
         function fibonacci(n) {
@@ -141,18 +144,22 @@
         }
     </script>
 
-    <div class="container">
+    <div class="menu">
 
-        <h2>Fibonacci: <input type="text" id="fibinput"> <button onclick="alert(fibonacci(document.getElementById('fibinput').value))">Calcular</button></h2>
-        <h2>Somar numeros: <input type="text" id="somainput"> <button onclick="alert(somatorio(document.getElementById('somainput').value))">Calcular</button></h2>
-        <h2>Verificar se é primo: <input type="text" id="primoinput"> <button onclick="alert(ehPrimo(document.getElementById('primoinput').value))">Calcular</button></h2>
-        <h2>Maximo divisor: <input type="text" id="mdcinput"> <button onclick="alert(maximoDivisor(document.getElementById('mdcinput').value))">Calcular</button></h2>
-        <h2>Contar inteiros: <input type="text" id="contarinput"> <button onclick="alert(contagem(document.getElementById('contarinput').value))">Contar</button></h2>
-        <h2>Conjunto de números: <input type="text" id="ordenarinput"> <button onclick="alert(ordenar(document.getElementById('ordenarinput').value))">Ordenar</button></h2>
+        <h2 class="opcao">Fibonacci<input type="text" id="fibinput" class="input"> <button onclick="alert(fibonacci(document.getElementById('fibinput').value))" class="button">Calcular</button></h2>
+        <h2 class="opcao">Somar numeros<input type="text" id="somainput" class="input"> <button onclick="alert(somatorio(document.getElementById('somainput').value))" class="button">Calcular</button></h2>
+        <h2 class="opcao">Verificar se é primo<input type="text" id="primoinput" class="input"> <button onclick="alert(ehPrimo(document.getElementById('primoinput').value))" class="button">Calcular</button></h2>
+        <h2 class="opcao">Maximo divisor<input type="text" id="mdcinput" class="input"> <button onclick="alert(maximoDivisor(document.getElementById('mdcinput').value))" class="button">Calcular</button></h2>
+        <h2 class="opcao">Contar inteiros<input type="text" id="contarinput" class="input"> <button onclick="alert(contagem(document.getElementById('contarinput').value))" class="button">Contar</button></h2>
+        <h2 class="opcao">Conjunto de números<input type="text" id="ordenarinput" class="input"> <button onclick="alert(ordenar(document.getElementById('ordenarinput').value))" class="button">Ordenar</button></h2>
 
     </div>
 
 </body>
+
+<footer class="baixo" >
+    <img src="download.png">
+</footer>
 
 
 </html>

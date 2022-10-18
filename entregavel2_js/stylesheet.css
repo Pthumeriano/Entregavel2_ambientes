@@ -1,0 +1,38 @@
+.input{
+    width: 30%;
+    margin:auto;
+}
+
+.button{
+    width: 15%;
+}
+
+.opcao{
+    font-family: 'Courier New';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    width: 75%;
+    margin: auto;
+    top: auto;
+}
+
+.baixo{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
